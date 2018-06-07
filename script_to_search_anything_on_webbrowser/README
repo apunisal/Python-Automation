@@ -1,0 +1,49 @@
+About the script : 
+
+1. It seraches user's input to script on chromium webbrowser.
+2. It can be executed in both conditions : 
+   a. webbrowser is closed.
+   b. webbrowser is running, script opens a new tab to serach your stuff.
+
+Imports
+
+1. pyautogui
+   
+   The purpose of PyAutoGUI is to provide a cross-platform Python module for GUI automation for   
+   human beings. The API is designed to be as simple as possible with sensible defaults.
+
+   For example, here is the complete code to move the mouse to the middle of the screen on    
+   Windows, OS X, and Linux:
+
+   >>> import pyautogui
+   >>> screenWidth, screenHeight = pyautogui.size()
+   >>> pyautogui.moveTo(screenWidth / 2, screenHeight / 2)
+   And that is all.
+
+   PyAutoGUI can simulate moving the mouse, clicking the mouse, dragging with the mouse,  
+   pressing keys, pressing and holding keys, and pressing keyboard hotkey combinations.   
+
+2. webbrowser
+   
+   The webbrowser module includes functions to open URLs in interactive browser applications. The 
+   module includes a registry of available browsers, in case multiple options are available on the 
+   system. It can also be controlled with the BROWSER environment variable.
+
+   Simple Example
+   To open a page in the browser, use the open() function.
+
+   import webbrowser
+
+   webbrowser.open('http://docs.python.org/lib/module-webbrowser.html')
+
+   The URL is opened in a browser window, and that window is raised to the top of the window  
+   stack. The documentation says that an existing window will be reused, if possible, but the   
+   actual behavior may depend on your browser’s settings. Using Firefox on my Mac, a new window   
+   was always created. 
+
+3. time
+  
+   It provides functions for working with times, and for converting between representations. 
+   The function time.time() returns the current system time in ticks since 12:00am, January 1, 
+   1970(epoch).
+ 
