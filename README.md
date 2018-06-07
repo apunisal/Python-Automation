@@ -1,2 +1,2 @@
 # Python-Automation
-Contain Scripts for Automating certain task
+It includes various python scripts for automating certain tasks. 
