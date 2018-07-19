@@ -2,7 +2,7 @@ import time
 import notify2
 from topnews import topStories
  
-
+ICON_PATH = "Path" # Set Your Icon Path
 # fetch news items
 newsitems = topStories()
  
